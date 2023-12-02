@@ -1,0 +1,45 @@
+body{
+    margin-top: 1cm;
+    padding: 0;
+    margin-left: 11cm;
+ 
+}
+.main{
+    width: 50vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    border-radius: 20%;
+    background: rgb(223, 195, 195);
+    color: rgb(139, 57, 57);
+    background-color: rgb(56, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: black;
+}
+
+.timer{        
+    width: 200px;
+    height: 100px;
+    margin-top: 2cm;
+    position: relative;
+    display: flex;
+    flex-direction:column-reverse;
+    color: rgb(230, 123, 123);
+    border-color: antiquewhite;
+    justify-content:flex-end ;
+    align-items:inherit;
+    border-radius: 50%;
+    box-shadow: 0 0 200px white;
+    background: rgb(68, 61, 61);
+}
+
+.hello{
+    width: 300px;
+    height: 50px;
+    margin-top: -2cm;
+    font-size: xx-large;
+    color: rgb(243, 241, 239);
+    text-shadow: 0 1 100px white;
+}
