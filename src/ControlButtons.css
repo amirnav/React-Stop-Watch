@@ -21,7 +21,7 @@
     border-radius: 50%;
     margin: 0px 6px;
     display: flex;
-    border: rgb(230, 160, 32);
+    border: rgb(220, 240, 42);
     border-bottom: rgb(230, 160, 32);
     border-color: rgb(230, 160, 32);
     justify-content: center;
@@ -31,14 +31,21 @@
 }
  
 .btn-one {
-    margin-top: 7cm;    
-    background-color: #0d7c0a;
+    margin-top: 6cm;   
+    background-color: #95af94;
 }
 .btn-two {
-    margin-top: 7cm;    
-    background-color: #a30c0c;
+    margin-top: 6cm;
+    background-color: #aa6b6b;
 }
 .btn-three {
-    margin-top: 7cm;   
-    background-color: #412072;
+    margin-top: 6cm;
+    background-color: #66606e;
+}
+.btn-four {
+    margin-top: 2cm;
+    background-color: #0d043f;
+    margin-top: 6cm;
+    
+    
 }

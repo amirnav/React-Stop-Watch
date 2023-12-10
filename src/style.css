@@ -2,44 +2,72 @@ body{
     margin-top: 1cm;
     padding: 0;
     margin-left: 11cm;
+    background: wheat;
  
 }
 .main{
     width: 50vh;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: initial;
-    border-radius: 20%;
+    border-radius: 50%;
     background: rgb(223, 195, 195);
     color: rgb(139, 57, 57);
-    background-color: rgb(56, 61, 61);
+    background-color: rgb(121, 139, 139);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-color: black;
+    position: absolute;
+    margin-top: 1cm;
 }
 
 .timer{        
-    width: 200px;
-    height: 100px;
-    margin-top: 2cm;
-    position: relative;
-    display: flex;
-    flex-direction:column-reverse;
-    color: rgb(230, 123, 123);
-    border-color: antiquewhite;
-    justify-content:flex-end ;
-    align-items:inherit;
+   
+    margin-top:-3.7cm;
+    width:172px;
+    height: 300px;
+    size: 300px;
+    color:rgb(114, 113, 107);
+
+    display:flex;
+    justify-content:center;
+    font-family:sans-serif;
     border-radius: 50%;
-    box-shadow: 0 0 200px white;
-    background: rgb(68, 61, 61);
+    font-size:x-large;
+    
 }
 
 .hello{
     width: 300px;
     height: 50px;
     margin-top: -2cm;
-    font-size: xx-large;
-    color: rgb(243, 241, 239);
+    font-size: large;
+    color: rgb(32, 30, 27);
     text-shadow: 0 1 100px white;
+    margin-left: -10cm;
+    margin-top: 1cm;
+    font-size: medium;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    width: 180px;
+    height: 200px;
+    font-family:fantasy;
+    color: rgb(109, 136, 101);
+    position: absolute;
+    margin-top: -0.1cm;
+    margin-left: 1.2cm;
+    border-radius: 10%;
+
+    font-size: xx-large;
+    -ms-grid-row-align: center;   
+}
+.watch{
+    
+    border-radius: 200%;
+    background-color: rgb(114, 113, 107);
+    background-color:rgb(199, 202, 31);
+
 }
