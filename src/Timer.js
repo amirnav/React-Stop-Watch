@@ -70,7 +70,10 @@ render(){
          
           <h2 className="timer" onClick={this.handleSaveTime}>
             {`${h>9?h:"0"+h}:${m>9?m:"0"+m}:${s>9?s:"0"+s}`}
-            </h2> 
+            </h2>
+            <div style={{color:"rgb(114, 113, 107)",marginTop:"-0.5cm",fontSize:"x-small"}}> 
+            <h7>Amir Navazi</h7>
+            </div>
           <div className='btn btn-grp'>                       
             <span className="btn btn-one btn-start" onClick={this.startInterval}>start</span>
             <span className="btn btn-two btn-stop" onClick={this.stopInterval}>stop</span>

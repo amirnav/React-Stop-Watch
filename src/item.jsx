@@ -1,7 +1,11 @@
+import { useContext } from "react";
+import{TestContext} from"./testContext";
 
 const Item=(props)=>{
+    const context=useContext(TestContext);
     const handleDeletItem=(e)=>{
-        alert(e.target.innerHTML)
+        
+        context.setTimeArr(context.timeArr.filter(t=>t!==e.target.innerHTML))
     }
     return(
         <div onClick={handleDeletItem}>
